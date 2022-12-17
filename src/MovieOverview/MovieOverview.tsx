@@ -1,11 +1,11 @@
-import React, { FunctionComponent } from 'react'
+import React, { FunctionComponent } from 'react';
 
 interface Props {
-  title: any
+  title: any;
 }
 
 const MovieOverview: FunctionComponent<Props> = ({ title }) => {
-  return <div>Movie {title}</div>
-}
+  return <div>Movie {title}</div>;
+};
 
-export default MovieOverview
+export default MovieOverview;
