@@ -1,4 +1,4 @@
 singleQuote: true
-trailingComma: 'all'
+trailingComma: none
 endOfLine: 'auto'
 printWidth: 100
