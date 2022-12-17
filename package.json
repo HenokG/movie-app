@@ -23,7 +23,8 @@
     "eject": "react-scripts eject"
   },
   "lint-staged": {
-    "**/*": "prettier --ignore-unknown"
+    "*.{ts,tsx}": "eslint --fix src/",
+    "**/*": "prettier --write --ignore-unknown"
   },
   "eslintConfig": {
     "extends": [
