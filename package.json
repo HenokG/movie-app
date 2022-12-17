@@ -20,10 +20,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "prettier": "prettier --write ."
   },
   "lint-staged": {
-    "*.{ts,tsx}": "eslint --fix src/",
+    "*.{ts,tsx}": "eslint --config .eslintrc.yaml --fix src/",
     "**/*": "prettier --write --ignore-unknown"
   },
   "eslintConfig": {
