@@ -1,7 +1,7 @@
 import { render, screen } from '@testing-library/react';
 import React from 'react';
 import { MoviesList } from '../MoviesList';
-import { moviesSampleData } from '../../sampleData';
+import { moviesSampleData } from '../../tempData/sampleData';
 
 describe('Test of MoviesList', () => {
   it('should render all movies', function () {
