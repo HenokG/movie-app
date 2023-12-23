@@ -4,6 +4,7 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
+import MoviePoster from '../MoviePoster';
 
 interface Props {
   movie: Movie;
@@ -13,6 +14,7 @@ const MovieOverview: FunctionComponent<Props> = ({ movie }) => {
   return (
     <Grid item xs={3}>
       <Card title={movie.title} draggable={true}>
+        <MoviePoster movie={movie} />
         <CardContent>
           <Typography variant={'h6'}>{movie.title}</Typography>
           <Typography variant={'body2'}>Year: {movie.year}</Typography>

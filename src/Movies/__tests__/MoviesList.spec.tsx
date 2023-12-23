@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
 import React from 'react';
-import { MoviesList } from '../MoviesList';
+import { MoviesList } from '../MoviesList/MoviesList';
 import { moviesSampleData } from '../../sampleData';
 
 describe('Test of MoviesList', () => {
