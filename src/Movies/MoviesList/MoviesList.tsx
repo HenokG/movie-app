@@ -1,6 +1,6 @@
 import React, { FunctionComponent } from 'react';
-import { Movie } from '../types';
-import MovieOverview from './MovieOverview/MovieOverview';
+import { Movie } from '../../types';
+import MovieOverview from '../MovieOverview/MovieOverview';
 import Container from '@mui/material/Container';
 import Grid from '@mui/material/Grid';
 import styled from '@emotion/styled';

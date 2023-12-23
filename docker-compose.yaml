@@ -9,3 +9,6 @@ services:
     command: npm start
     volumes:
       - .:/src
+      - /src/node_modules
+    environment:
+      - WATCHPACK_POLLING=true

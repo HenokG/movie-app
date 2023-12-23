@@ -1,10 +1,14 @@
-export const moviesSampleData = [
+import { Movie } from './types';
+
+export const moviesSampleData: Movie[] = [
   {
-    title: 'Avengers',
+    title: 'Avengers Endgame',
     description:
       'After Thanos, an intergalactic warlord, disintegrates half of the universe, the Avengers must reunite and assemble again to reinvigorate their trounced allies and restore balance.',
     year: 2019,
-    id: 'avengers_endgame'
+    id: 'avengers_endgame',
+    posterUrl:
+      'https://www.movieposters.com/cdn/shop/products/avengers.2436_480x.progressive.jpg?v=1647534214'
   },
   {
     title: 'Avengers Infinity War',

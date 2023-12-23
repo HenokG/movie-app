@@ -1,5 +1,5 @@
 import React, { FunctionComponent } from 'react';
-import { MoviesList } from './Movies/MoviesList';
+import { MoviesList } from './Movies/MoviesList/MoviesList';
 import MainBar from './Toolbar/Toolbar';
 import { moviesSampleData } from './sampleData';
 
