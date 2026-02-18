@@ -12,7 +12,7 @@ interface Props {
 
 const MovieOverview: FunctionComponent<Props> = ({ movie }) => {
   return (
-    <Grid item xs={3}>
+    <Grid size={{ xs: 3 }}>
       <Card title={movie.title} draggable={true}>
         <MoviePoster movie={movie} />
         <CardContent>
