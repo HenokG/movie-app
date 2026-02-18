@@ -9,15 +9,15 @@ export default defineConfig({
     port: 3000,
     host: true,
     watch: {
-      usePolling: true,
-    },
+      usePolling: true
+    }
   },
   build: {
-    outDir: 'build',
+    outDir: 'build'
   },
   test: {
     globals: true,
     environment: 'jsdom',
-    setupFiles: './src/setupTests.ts',
-  },
+    setupFiles: './src/setupTests.ts'
+  }
 });
